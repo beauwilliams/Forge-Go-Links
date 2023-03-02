@@ -29,6 +29,7 @@
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
+    "@types/xml-escape": "^1.1.1",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "babel-jest": "28.1.1",
@@ -52,10 +53,17 @@
     "url-loader": "^4.1.1"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@forge/api": "latest",
     "@forge/resolver": "latest",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
+    "fuse.js": "^6.6.2",
+    "moment": "^2.29.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "xml-escape": "^1.1.0"
   }
 }
